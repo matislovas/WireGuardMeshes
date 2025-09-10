@@ -15,7 +15,6 @@
 | [wgmesh](https://github.com/aschmidt75/wgmesh) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Unlimited | :x: | :white_check_mark: | :x: | :x: | :globe_with_meridians: | :x: | :x: | :x: | :x: | :x: | :x: |
 | [wiresmith](https://github.com/svenstaro/wiresmith) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Unlimited | :x: | :x: | :x: | :x: | :globe_with_meridians: | :x: | :x: | :x: | :x: | :x: | :x: |
 | [webmesh](https://github.com/webmeshproj/webmesh) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Unlimited | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :globe_with_meridians: | :globe_with_meridians: | :globe_with_meridians: | :soon: | :soon: | :soon: | :white_check_mark: |
-| [NordVPN Meshnet](https://github.com/NordSecurity/libtelio) | :white_check_mark: [:exclamation:<sup>4<sup>](#nvmexplain1) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :one::zero: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :globe_with_meridians: | :globe_with_meridians: :lock_with_ink_pen: | :globe_with_meridians: :lock_with_ink_pen: | :globe_with_meridians: :lock_with_ink_pen: | :globe_with_meridians: :lock_with_ink_pen: | :soon: | :white_check_mark: |
   
  <sup>0</sup><a name="tsexplain1">Tailscale's client code is open source. Tailscale's control server code is entirely closed source (It's a SaaS product).</a>  
   
@@ -24,10 +23,6 @@
  <sup>2</sup><a name="hsexplain1">Headscale uses the tailscale mobile clients. <a href="https://github.com/juanfont/headscale/blob/main/docs/android-client.md">Andriod instructions</a></a>. <a href="https://github.com/juanfont/headscale/blob/main/docs/iOS-client.md">iOS</a></a>
   
  <sup>3</sup><a name="tsexplain2">When routing all traffic through an exit node tailscale ignores custom DNS. <a href="https://github.com/tailscale/tailscale/issues/8237">Issue</a></a>
-
- <sup>4</sup><a name="nvmexplain1">Open source parts: `libtelio` - multiplatform meshnet library, `nordvpn-linux` - vpn client app for linux with integrated meshnet feature, `libdrop` - multiplatform file-sharing-over-meshnet library.</a>
-
- <sup>5</sup><a name="nvmexplain2">10 peers per account. Can connect to up to 50 devices from other accounts.</a>
  
 ## Legend
 - :free: Has free tier
